@@ -1,1 +1,202 @@
-hello world
+<!DOCTYPE html>
+<html lang="es">
+<head>
+
+  <!-- Basic Page Needs
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <meta charset="utf-8">
+  <title>Taller de Inventores</title>
+  <meta name="description" content="Informatica orientada a la robotica.">
+  <meta name="author" content="kwendenarmo" >
+
+  <!-- Mobile Specific Metas
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- FONT
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <link href="http://fonts.googleapis.com/css?family=Raleway:400,300,600" rel="stylesheet" type="text/css">
+
+  <!-- CSS
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/skeleton.css">
+  <link rel="stylesheet" href="css/custom.css">
+  <link rel="stylesheet" href="css/github-prettify-theme.css">
+
+ <!-- Scripts
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <script src="http://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+  <script src="https://google-code-prettify.googlecode.com/svn/loader/run_prettify.js"></script>
+  <script src="js/site.js"></script>
+
+  <!-- Favicon
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <link rel="icon" type="image/png" href="img/favicon.png">
+
+</head>
+<body class="code-snippets-visible">
+
+  <!-- Primary Page Layout
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <div class="container">
+    <section class="header" style="margin-top: 15%">
+      <div class="row" id="portada">
+        <div class="three columns">
+          <img class="value-img" src="img/logo-thumbnail.png" alt="logo">
+        </div>
+        <div class="nine columns">
+          <h2 class="title">Taller de Inventores</h2>
+          <h4>Informática orientada a la robótica.</h4>
+        </div>
+      </div>
+      <div class="value-props row" style="margin-top: 10%">
+        <div class="four columns value-prop"><img class="value-img" src="img/computing.png" alt="computing">Nos valemos de la Informática como marco de trabajo.</div>
+        <div class="four columns value-prop"><img class="value-img" src="img/electronics.png" alt="electronics">Usando la Electrónica como medio por el cual alcanzar un fin.</div>
+        <div class="four columns value-prop"><img class="value-img" src="img/robotics.png" alt="robotics">Enseñando mediante la Robótica disciplinas de forma divertida.</div>
+      </div>
+    </section>
+
+    <div class="navbar-spacer"></div>
+    <nav class="navbar">
+      <div class="container">
+        <ul class="navbar-list">
+          <li class="navbar-item"><a class="navbar-link" href="#portada">Portada</a></li>
+          <li class="navbar-item">
+            <a class="navbar-link" href="#" data-popover="#aboutNavPopover">Sobre nosotros</a>
+            <div id="aboutNavPopover" class="popover">
+              <ul class="popover-list">
+                <li class="popover-item"><a class="popover-link" href="#que">Qué hacemos?</a></li>
+                <li class="popover-item"><a class="popover-link" href="#porque">¿Porqué <em>Taller de Inventores?</em></a></li>
+                <li class="popover-item"><a class="popover-link" href="#paraque">¿Para qué es necesario?</a></li>
+                <li class="popover-item"><a class="popover-link" href="#quienes">¿Quiénes somos?</a></li>
+                <li class="popover-item"><a class="popover-link" href="#experiencias">Experiencias</a></li>
+              </ul>
+            </div>
+          </li>
+          <li class="navbar-item">
+            <a class="navbar-link" href="#" data-popover="#formativeNavPopover">Propuesta formativa</a>
+            <div id="formativeNavPopover" class="popover">
+              <ul class="popover-list">
+                <li class="popover-item"><a class="popover-link" href="#objetivos">Objetivos</a></li> <!--
+                <li class="popover-item"><a class="popover-link" href="#metodologia">Metodología</a></li>
+                <li class="popover-item"><a class="popover-link" href="#proyectos">Proyectos</a></li>
+                <li class="popover-item"><a class="popover-link" href="#recursos">Recursos</a></li> -->
+                <li class="popover-item"><a class="popover-link" href="#parati">Taller de Inventores para ti</a></li>
+              </ul>
+            </div>
+          </li>
+          <li class="navbar-item"><a class="navbar-link" href="#contacto">Contacto</a></li>
+          <li class="navbar-item">
+            <a class="navbar-link" href="#" data-popover="#moreNavPopover">Presentes en...</a>
+            <div id="moreNavPopover" class="popover">
+              <ul class="popover-list">
+                <li class="popover-item"><a class="popover-link" href="https://github.com/tallerinventores">En Github</a></li>
+                <li class="popover-item"><a class="popover-link" href="https://www.thingiverse.com/groups/tallerinventores">En Thingiverse</a></li>
+                <li class="popover-item"><a class="popover-link" href="https://scratch.mit.edu/studios/358187/">En Scratch</a></li>
+                <li class="popover-item"><a class="popover-link" href="http://www.padrepiquer.es/index.php/en/noticias/81-padre-piquer/239-tercer-ano-del-taller-de-inventores">En C. F. Padre Piquer</a></li>
+              </ul>
+            </div>
+          </li>
+        </ul>
+      </div>
+    </nav>
+
+    <!-- qué es -->
+    <div class="docs-section" id="que">
+      <h6 class="docs-header">¿Qué hacemos?</h6>
+      <p><em>Taller de Inventores</em> es un espacio multidisciplinar especialmente dirigido a jóvenes con inquietudes tecnológicas, creada como experiencia piloto desde 2011, dando respuesta a una oferta tecnológica básica y casi inexistente en ese momento. Desde <em>Taller de Inventores</em> proporcionamos actividades de <a href="http://es.wikipedia.org/wiki/Rob%C3%B3tica_educativa">Robótica pedagógica y educativa</a> usando diferentes métodos, avalados y reconocidos por importantes organismos docentes.</p>
+    </div>
+
+    <!-- por qué -->
+    <div class="docs-section" id="porque">
+      <h6 class="docs-header">¿Porqué <em>Taller de Inventores</em>?</h6>
+      <p>La disciplina de la Robótica pedagógica fue creada por investigadores a lo largo del mundo como medio para explotar el deseo de aprender manipulando, favoreciendo los procesos cognitivos con éxito. De esta manera, y desde el <a href="http://es.wikipedia.org/wiki/Construccionismo">construccionismo</a> se involucran metodologías de Educación y Psicología que fomenta el aprendizaje de otras muchas disciplinas transversales. Dado que los conocimientos se adquieren de forma práctica y didáctica, éstos se asimilan instintívamente dado que los fenómenos observables se comprenden mejor que la teoría abstracta.</p>
+      <p>De esta forma, las áreas <a href="http://es.wikipedia.org/wiki/STEM"><abbr title="Science, Technology, Engineering and Mathematics">STEM</abbr></a> se convierten en protagonistas involuntarias del proceso de aprendizaje. Fomenta las ganas de aprender al realimentarse por las emociones de crear y descubrir. Permite familiarizarse con las nuevas tecnologías de forma positiva, reconocerlas en el medio, potenciar valores personales y destrezas profesionales, como algunas de las ventajas que proporcionan estos métodos empleados.</p>
+      <p>Por todo ello el nombre de <em>Taller de Inventores</em> no está elegido al azar. Como taller se fomenta la experimentación y los métodos científicos, como inventores comprendiendo el entorno y desarrollando la creatividad. <strong><em>Taller de Inventores</em> como forja de futuros profesionales cualificados.</strong></p>
+    </div>
+
+    <!-- para qué -->
+    <div class="docs-section" id="paraque">
+      <h6 class="docs-header">¿Para qué es necesario?</h6>
+      <p>Desde nuestros años de experiencia, hemos podido comprobar cómo influye positivamente el paso por la actividad de los diferentes alumnos. La robótica no es la finalidad en sí misma, sino como medio para acercar no sólo las ciencias tecnológicas, sino prácticamente transversal a todas las materias. Usamos el concevir, diseñar, crear, construir, programar y poner en marcha los robots como elemento motivador para alcanzar nuestro fin: <strong>Fomentar las herramientas básicas para el futuro.</strong></p>
+      <p>Así, mientras se divierten creamos inquietudes creativas, reforzamos la teoría de las aulas y proporcionamos un punto de vista desde el que explorar nuestro entorno cada vez más automatizado. Y cabe destacar que nuestros resultados con frecuencia están al nivel de la educación superior, proveyendo habilidades en el manejo de materiales y herramientas necesarias a lo largo de la vida.</p>
+    </div>
+
+    <!-- quienes somos -->
+    <div class="docs-section" id="quienes">
+      <h6 class="docs-header">¿Quiénes somos?</h6>
+      <p>Hablar del origen de <em>Taller de Inventores</em> es hablar de <a href="http://synusia.es">Synusia</a>. En 2011 un grupo de profesores y antiguos alumnos del <a href="http://www.padrepiquer.es">Centro de Formación Padre Piquer</a> se unieron para crear una asociación de promoción del conocimiento bajo el movimiento de <a href="http://es.wikipedia.org/wiki/Cultura_libre">cultura libre</a>, y nació Synusia. ¡Y fueron gemelos! <em>Taller de Inventores</em> fue el proyecto para el acercamiento de la robótica a los jóvenes de la ESO del mismo centro formativo.</p>
+      <p>Los dos primeros años de <em>Taller de Inventores</em> estuvieron a cargo de <a href="https://sindormir.net">Jorge Gómez</a>, que se ha mantenido como colaborador en los cursos siguientes, bajo la ejecución de <a href="http://about.kwendenarmo.es">Rodolfo García</a>. En estos años la metodología educativa de <em>Taller de Inventores</em> ha ido evolucionando hasta encontrar su propia identidad.</p>
+      <p>La innovación es nuestro rasgo característico, dado que como desarrolladores la mayoría de los recursos que utilizamos son desarrollos propios. Esto nos proporciona una visión cercana y solución realista a los problemas con los que se enfrentan los formadores y docentes. En nuestra experiencia construyendo robots y dispositivos inteligentes, sabemos qué elemento usar para cada situación, con un rendimiento óptimo.</p>
+    </div>
+
+    <!-- experiencia -->
+    <div class="docs-section" id="experiencias">
+      <h6 class="docs-header">Experiencias</h6>
+      <p>En nuestra andadura, hemos podido participar en diferentes proyectos e iniciativas de envergadura. Hemos participado en <a href="http://asimov.depeca.uah.es/robotica/">Alcabot</a>, dentro del <a href="http://asimov.depeca.uah.es/robotica/mod/resource/view.php?id=463">proyecto Tubot</a>, quedando en cuarto puesto de entre veintidos colegios e institutos a nivel nacional. Esto nos valió una muy interesante visita guiada al <a href="http://www.inta.es/">INTA</a>.</p>
+      <p>También dentro del movimiento a nivel mundial <a href="http://hourofcode.com/es">Hour of Code</a>, auspiciado por grandes empresas y organizaciones a nivel global. Donde aparte de participar en esta genial iniciativa, creamos una motivación como base para los siguientes contenidos didácticos con un compromiso y entusiasmo espectacular. Experiencia que sin duda alguna repetiremos y ampliaremos.</p>
+    </div>
+
+    <!-- objetivos -->
+    <div class="docs-section" id="objetivos">
+      <h6 class="docs-header">Objetivos</h6>
+      <p><em>Taller de Inventores</em> aporta y se identifica con unos objetivos y unos valores, tanto a nivel de organización como a nivel personal. Es por ello nuestro fuerte compromiso con el libre acceso a la educación, usando tanto hardware como software abierto y libre. Y publicando también todo lo que generamos en nuestras actividades bajo licencias del mismo tipo. Citando a <a href="http://es.wikipedia.org/wiki/Richard_Stallman">R. Stallman</a>: <em>&laquo;Las obras de conocimiento deben ser libres, no hay excusas para que no sea así&raquo;.</em></p>
+      <p>Nuestros objetivos son siempre el <strong>desarrollo práctico y beneficioso</strong> de todas las personas que pasan por nuestras aulas. Pensamos que desde nuestra actividad formamos también en valores personales y profesionales, tan necesarios en todos los aspectos de nuestra vida. Las relaciones humanas, de convivencia, habilidades y destrezas, imaginación y originalidad, los aspectos que nos hacen personas se suman para <strong>crear una experiencia de crecimiento personal</strong>.</p>
+    </div>
+
+    <!-- para ti -->
+    <div class="docs-section" id="parati">
+      <h6 class="docs-header"><em>Taller de Inventores</em> para ti</h6>
+      <p>Nos encanta ampliar la oferta formativa cultural y estar presente en la vida de cada vez más personas. Por ello estamos abiertos a diferentes formatos y espacios para acercarte nuestra actividad. No sólo realizamos actividades extraescolares, sino que también podemos realizar talleres, campamentos, actividades con padres e hijos, formación de docentes… Ponte en contacto con nosotros y seguro que encontramos el marco adecuado para tu propuesta.</p>
+    </div>
+
+    <!-- contacto -->
+    <div class="docs-section" id="contacto">
+      <h6 class="docs-header">Contacto</h6>
+      <p>Si deseas ponerte en contacto con nosotros, puedes enviarnos un correo a &#105;&#110;&#118;&#101;&#110;&#116;&#111;&#114;&#101;&#115;&#32;&#91;&#97;&#116;&#93;
+      &#32;&#97;&#107;&#111;&#114;&#110;&#115;&#121;&#115;&#45;&#114;&#100;&#105;&#32;&#91;&#100;&#111;&#116;&#93;&#32;&#110;&#101;&#116;</p>
+
+      <!--
+      <form>
+        <div class="row">
+          <div class="six columns">
+            <label for="NameInput">Tu nombre</label>
+            <input class="u-full-width" placeholder="Escriba aqui su nombre" id="NameInput" type="text">
+          </div>
+          <div class="six columns">
+            <label for="EmailInput">Tu dirección de correo electrónico</label>
+            <input class="u-full-width" placeholder="user@domain.tld" id="EmailInput" type="email">
+          </div>
+        </div>
+        <label for="Message">Mensaje</label>
+        <textarea class="u-full-width" placeholder="Hola Taller de Inventores, […]" id="Message"></textarea>
+        <label class="example-send-yourself-copy"><input type="checkbox"><span class="label-body">Deseo una copia a mi buzón de correo.</span></label>
+        <input class="button-primary" value="Enviar" type="submit">
+      </form>
+      -->
+    </div>
+
+  </div>
+
+  <!-- footer -->
+  <section class="footer">
+    <div class="container">
+      <div class="row">
+        <div class="four columns"><ul><li> <a href="https://github.com/tallerinventores"><img src="img/github-logo.png" alt="Github"></img></a></li></ul></div>
+        <div class="four columns"><ul><li><a href="https://www.thingiverse.com/groups/tallerinventores"><img src="img/thingiverse-logo.png" alt="Thingiverse"></img></a></li></ul></div>
+        <div class="four columns"><ul><li><a href="https://scratch.mit.edu/studios/358187/"><img src="img/scratch-logo.png" alt="Scratch"></img></a></li></ul></div>
+      </div>
+      <div class="row">
+        <div class="twelve columns">
+          <p>Web realizada con <a href="http://bluefish.openoffice.nl/index.html">bluefish</a> y <a href="http://www.vim.org/index.php">vim</a>, basada en <a href="http://getskeleton.com/">skeleton</a>.<br />©2015 Taller de Inventores. Más información en nuestra <a href="https://github.com/tallerinventores/recursos/wiki">wiki</a>.</p>
+        </div>
+      </div>
+    </div>
+    <div class="gradient"></div>
+  </section>
+
+<!-- End Document
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+</body>
+</html>
