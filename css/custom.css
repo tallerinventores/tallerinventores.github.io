@@ -54,6 +54,9 @@
 .code-example-body {
   white-space: pre;
   word-wrap: break-word }
+.versal {
+    font-variant: small-caps;
+}
 .example {
   position: relative;
   margin-top: 4rem; }
